@@ -105,7 +105,6 @@ export default {
         redirect: "follow",
       };
       fetch(
-        // `https://api.themoviedb.org/3/search/movie?api_key=9278d13f704ad0fe53c2263b692efd89&query=${search.value}`,
         `https://api.themoviedb.org/3/search/movie?api_key=8b06fb071e6685e3dacb102957311047&query=${search.value}&type=video&maxResults=28`,
         requestOptions
       )
